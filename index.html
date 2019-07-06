@@ -7,9 +7,13 @@
 </head>
 <body>
     <script>
-        document.write("<h1>Bobby Rockers</h1>");
-        document.write("<div>Age: " + (42 /3) + "</div>");
-        document.write("<div>Day: " + (20 * 127) + "</div>");
+        var name = prompt("Users name?");
+        var age = prompt("Users age?");
+        var day = prompt("Users day of birth?");
+        document.write("<h1>" + name + "</h1>");
+        document.write("<div>Age: " + (age /3) + "</div>");
+        document.write("<div>Day: " + (day * 127) + "</div>");
+        document.write("Age x Day: " + (age * day));
     </script>
 </body>
 </html>
