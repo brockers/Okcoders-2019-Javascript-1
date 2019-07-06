@@ -7,16 +7,11 @@
 </head>
 <body>
     <script>
-        var name = prompt("Users name?");
-        var age = prompt("Users age?");
-
-        // I arbitarily picked 55 so I would stay under
-        if(age > 55){
-            document.write(name + " is old");
-        } else if (age < 25 ) {
-            document.write(name + " is young");
-        } else {
-            document.write(name + " is just right");
+        var number = prompt("Count from what?");
+        
+        while(number < 100){
+            document.write("Number " + number + "<br>");
+            number++;
         }
 
     </script>
