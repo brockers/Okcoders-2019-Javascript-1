@@ -7,7 +7,18 @@
 </head>
 <body>
     <script>
-        document.write( ("Bob" === "Bob") && (1===2) );
+        var name = prompt("Users name?");
+        var age = prompt("Users age?");
+
+        // I arbitarily picked 55 so I would stay under
+        if(age > 55){
+            document.write(name + " is old");
+        } else if (age < 25 ) {
+            document.write(name + " is young");
+        } else {
+            document.write(name + " is just right");
+        }
+
     </script>
 </body>
 </html>
